@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Prowider — Mini Lead Distribution System
 
 A full-stack lead distribution system built with **Next.js 14 (App Router)**, **PostgreSQL**, and **Prisma ORM**.
@@ -130,3 +131,6 @@ await prisma.webhookEvent.create({ data: { id: eventId, type, payload } });
 ## Real-Time
 
 SSE endpoint at `/api/dashboard-events`. Node.js EventEmitter broadcasts when leads are created. Dashboard reconnects automatically on disconnect.
+=======
+# Lead_Distribution
+>>>>>>> fc0b8c3ecc40f34fa85bb171812a91b2cccac174
